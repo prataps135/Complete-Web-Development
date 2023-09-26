@@ -1,0 +1,20 @@
+db.products.insertOne(
+    {
+        _id:2,
+        name:"Pencil",
+        price:0.80,
+        stock:32,
+        reviews:[
+            {
+                authorName:"Pratap",
+                rating:5,
+                review:"Best rubber ever"
+            },
+            {
+                authorName:"Sanjay",
+                rating:5,
+                review:"Awesome rubber"
+            }
+        ]
+    }
+)
